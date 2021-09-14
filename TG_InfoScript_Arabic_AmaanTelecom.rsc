@@ -5,9 +5,8 @@
 #المهندس/ منير الشريف 777638900
 #www.facebook.com/AmaanTelcom
 #######################
-:global apikey;
-:global phone;
-:local CHID "1204910529";
+
+:global CHID;
 :do {
 :log warning "START Sending to Telegram";
 :local TIME [/system clock get time];
